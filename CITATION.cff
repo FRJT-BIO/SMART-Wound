@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use SMART-Wound, please cite the article describing it (listed under 'preferred-citation')."
+title: "SMART-Wound: a texture-based ImageJ/Fiji plug-in for wound / scratch-assay segmentation and quantification"
+abstract: >-
+  SMART-Wound is a free, open-source ImageJ/Fiji plug-in that segments the
+  cell-free area in in-vitro wound-healing (scratch) assays using a local-texture
+  map with divisive illumination normalisation, so that the migrating-cell front
+  is delineated robustly across illumination gradients and irregular wound shapes,
+  excluding inter-cell gaps of the confluent monolayer.
+type: software
+version: "1.0.0"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/FRJT-BIO/SMART-WOUND"
+url: "https://github.com/FRJT-BIO/SMART-WOUND"
+keywords:
+  - ImageJ
+  - Fiji
+  - wound healing assay
+  - scratch assay
+  - cell migration
+  - texture segmentation
+  - image processing
+authors:
+  - family-names: "Jimenez-Trinidad"
+    given-names: "Francisco Rafael"
+preferred-citation:
+  type: article
+  title: "SMART-Wound: a user-friendly ImageJ plug-in for texture-based wound / scratch-assay quantification"
+  authors:
+    - family-names: "Jimenez-Trinidad"
+      given-names: "Francisco Rafael"
+    - family-names: "Sardine"
+      given-names: "Anna"
+    - family-names: "Severino"
+      given-names: "Anna"
+    - family-names: "Barbera"
+      given-names: "Joan Albert"
+    - family-names: "Dantas"
+      given-names: "Ana Paula"
+    - family-names: "Liuzzo"
+      given-names: "Giovanna"
+  # --- Fill these in when the article is published (preprint or journal): ---
+  # year: 2026
+  # journal: "Journal name"
+  # doi: "INSERT article DOI here when published"
